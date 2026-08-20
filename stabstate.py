@@ -1,7 +1,6 @@
 from graph import *
 import numpy as np
 from stim import PauliString, Tableau
-from time import time_ns
 from galois import GF2
 
 type Protocol = list[tuple[str, int] | tuple[str, int, int]]
